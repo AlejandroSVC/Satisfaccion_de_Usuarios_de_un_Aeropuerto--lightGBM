@@ -187,11 +187,11 @@ from yellowbrick.regressor import PredictionError
 
 visualizer = PredictionError(model)
 
-visualizer.fit(X_train, y_train)  # Fit the training data to the visualizer
+visualizer.fit(X_train, y_train)      # Fit the training data to the visualizer
 
-visualizer.score(X_test, y_test)  # Evaluate the model on the test data
+visualizer.score(X_test, y_test)      # Evaluate the model on the test data
 
-visualizer.show()                 # Finalize and render the figure
+visualizer.show()                     # Finalize and render the figure
 
 ## Residuals plots on training and testing data
 
@@ -199,8 +199,8 @@ from yellowbrick.regressor import ResidualsPlot
 
 visualizer = ResidualsPlot(model)
 
-visualizer.fit(X_train, y_train)  # Fit the training data to the visualizer
+visualizer.fit(X_train, y_train)      # Fit the training data to the visualizer
 
-visualizer.score(X_test, y_test)  # Evaluate the model on the test data
+visualizer.score(X_test, y_test)      # Evaluate the model on the test data
 
-visualizer.show()                 # Finalize and render the figure
+visualizer.show()                     # Finalize and render the figure
