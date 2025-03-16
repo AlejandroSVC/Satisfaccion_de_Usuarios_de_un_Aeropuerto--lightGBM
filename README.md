@@ -1,4 +1,4 @@
-# Predicting website user satisfaction using lightGBM Regression
+# Predicting Airport User Satisfaction using lightGBM Regression
 
 Set working directory and load data
 
@@ -8,7 +8,7 @@ import pandas as pd
 
 os.chdir('dir')
 
-df = pd.read_csv('website365.csv')
+df = pd.read_csv('airport2809.csv')
 
 df.info()
 
@@ -99,6 +99,8 @@ print("MAE, Mean absolute error:", mae)
 print("R2, R-squared:", r2)
 
 print("Explained variance:", explained_var)
+
+![Metrics](docs/assets/images/Metrics.png)
 
 ## Feature importance
 
