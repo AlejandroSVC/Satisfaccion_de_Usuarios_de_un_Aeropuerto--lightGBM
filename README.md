@@ -36,9 +36,11 @@ from sklearn.model_selection import RepeatedKFold
 
 from matplotlib import pyplot
 
-## Correlation matrix
+## Display correlation matrix
 
 sns.heatmap(df.corr(), cmap='coolwarm')
+
+![Correlation matrix](docs/assets/Correlation_matrix.png)
 
 ## Dataset: extract features and target
 
@@ -112,6 +114,8 @@ plt.title('Feature Importance (lightGBM)')
 
 plt.show()
 
+![Features importance](docs/assets/Features_importance.png)
+
 ## Plot actual vs predicted values, and actual vs predicted residuals
 
 import matplotlib.pyplot as plt
@@ -141,6 +145,8 @@ PredictionErrorDisplay.from_estimator(reg, X, y, ax=axes[0], kind="actual_vs_pre
 PredictionErrorDisplay.from_estimator(reg, X, y, ax=axes[1], kind="residual_vs_predicted")
 
 plt.show()
+
+![Predicted plots](docs/assets/Predicted_plots.png)
 
 ## Permutation importance
 
@@ -174,6 +180,8 @@ plt.tight_layout()
 
 plt.show()
 
+![Permutation feature importance](docs/assets/Permutation_feature_importance.png)
+
 ## Prediction error plot
 
 A prediction error plot shows the actual targets from the dataset against the
@@ -193,6 +201,8 @@ visualizer.score(X_test, y_test)      # Evaluate the model on the test data
 
 visualizer.show()                     # Finalize and render the figure
 
+![Prediction error plot](docs/assets/Prediction_error_plot.png)
+
 ## Residuals plots on training and testing data
 
 from yellowbrick.regressor import ResidualsPlot
@@ -204,3 +214,5 @@ visualizer.fit(X_train, y_train)      # Fit the training data to the visualizer
 visualizer.score(X_test, y_test)      # Evaluate the model on the test data
 
 visualizer.show()                     # Finalize and render the figure
+
+![Residuals plot on training and testing data](docs/assets/.png)
