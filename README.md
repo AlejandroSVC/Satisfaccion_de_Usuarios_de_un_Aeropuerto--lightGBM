@@ -1,6 +1,6 @@
 # Predicting Airport User Satisfaction using lightGBM Regression
 
-![Banner](docs/assets/images/Banner_delgado_2.jpg)
+![Banner](docs/assets/images/Banner_airport_2.jpg)
 
 Set working directory and load data
 
