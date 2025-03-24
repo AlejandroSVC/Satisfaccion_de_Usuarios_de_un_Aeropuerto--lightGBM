@@ -1,5 +1,5 @@
 # Predicting Airport User Satisfaction
-# Using lightGBM Regression with Python
+## Using lightGBM Regression with Python
 
 ![Banner](docs/assets/images/Banner_airport_2.jpg)
 
@@ -103,7 +103,19 @@ print("R2, R-squared:", r2)
 
 print("Explained variance:", explained_var)
 ```
-![Metrics](docs/assets/images/Metrics.png)
+## OUTPUT
+
+MAPE, mean absolute percentage error : 0.12297041826724223
+
+MSE, Mean squared error 0.46828457144794255
+
+RMSE, Root mean squared error 0.6843132115105937
+
+MAE, Mean absolute error 0.49018020422072434 
+
+R<sup>2</sup>, R-squared 0.3025840635100512 
+
+Explained variance 0.30260445796819113 
 
 ## Feature importance
 ```
