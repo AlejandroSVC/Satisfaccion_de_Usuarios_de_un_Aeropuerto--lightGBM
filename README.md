@@ -1,7 +1,9 @@
 # Predicción de la satisfacción del usuario del aeropuerto
-## Uso de Regresión lightGBM con Python
+## Uso de Regresión lightGBM
 
 ![Banner](docs/assets/images/Banner_airport_2.jpg)
+
+LightGBM es un framework de potenciación de gradientes que utiliza algoritmos de aprendizaje basados en árboles. Está diseñado para ser distribuido y eficiente, con las siguientes ventajas: 1) Mayor velocidad de entrenamiento y mayor eficiencia; 2) Menor consumo de memoria; 3) Mayor precisión; 4) Compatibilidad con aprendizaje paralelo, distribuido y por GPU; y 5) Capacidad para gestionar datos a gran escala.
 
 ### Establecer el directorio de trabajo y cargar datos
 ```
